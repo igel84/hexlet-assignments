@@ -1,0 +1,13 @@
+<%= form_with model: @task do |form| %>
+  <%= form.label :name %>
+  <%= form.text_field :name %>
+  <%= form.label :description %>
+  <%= form.text_area :description, size: "60x10" %>
+  <%= form.label :creator %>
+  <%= form.text_field :creator %>
+  <%= form.label :performer %>
+  <%= form.text_field :performer %>
+  <%= form.label :completed %>
+  <%= form.check_box :completed %>
+  <%= form.submit %>
+<% end %>
