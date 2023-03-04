@@ -1,0 +1,16 @@
+= content_for :title do
+  = @user.name
+
+/ BEGIN
+h2 Task list
+hr
+- @user.tasks.each do |task|
+  h3= task.name
+  p= task.description
+  p= task.status.name
+/ END
+hr
+
+.d-flex
+  = link_to 'Edit', edit_user_path(@user), class: 'btn btn-outline-primary me-2'
+  = link_to 'Back', :back, class: 'btn btn-outline-primary'
