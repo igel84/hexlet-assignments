@@ -1,0 +1,38 @@
+ru:
+  activerecord:
+    models:
+      # BEGIN
+      comment:
+        zero: нет комментариев
+        one: 1 комментарий
+        other: '%{count} комментария'
+        few: '%{count} комментариев'
+        many: '%{count} комментариев'
+      post/comment:
+        zero: нет комментариев
+        one: 1 комментарий
+        other: '%{count} комментария'
+        few: '%{count} комментариев'
+        many: '%{count} комментариев'
+      # END
+      # post/comment: Комментарий
+
+    attributes:
+      title: title
+      body: body
+      post:
+        # BEGIN
+        title: Название
+        body: Содержание
+        # END
+      post/comment:
+        body: Содержание
+
+    errors:
+      models:
+        post:
+          attributes:
+            # BEGIN
+            title: Название
+            body: Содержание
+            # END

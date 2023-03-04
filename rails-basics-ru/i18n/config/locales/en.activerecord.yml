@@ -1,0 +1,32 @@
+en:
+  activerecord:
+    models:
+      # BEGIN
+      comment:
+        zero: No comments
+        one: 1 comment
+        other: '%{count} comments'
+        few: '%{count} comments'
+      # END
+      post/comment: Comment
+    attributes:
+      # BEGIN
+      title: title
+      body: body
+      post:
+        # BEGIN
+        title: title
+        body: body
+        # END
+      # END
+      post/comment:
+        body: Body
+
+    errors:
+      models:
+        post:
+          attributes:
+            # BEGIN
+            title: title
+            body: body
+            # END

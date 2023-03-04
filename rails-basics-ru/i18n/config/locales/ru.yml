@@ -1,0 +1,15 @@
+ru:
+  show: Показать
+  edit: Редактировать
+  destroy: Удалить
+  destroy_confirmation: Вы уверены?
+  back: Назад
+  hexlet_title: '© Хекслет, %{year}'
+  home: Домой
+  home_page: Домашняя страница
+  layouts:
+    application:
+      lang: русский
+    shared:
+      nav:
+        hexlet_logo: hexlet_logo
